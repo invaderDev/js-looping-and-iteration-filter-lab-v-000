@@ -4,19 +4,13 @@ function findMatching(array, driverName) {
 }
 
 function matchName (drivers, name) {
-  let matchingDrivers = [];
-
-  for (const driver of drivers){
-    if (driver.name === name) {
-      matchingDrivers.push(driver);
-    }
-  }
-
-  return matchingDrivers;
+  drivers.filter(function (driverObject) {return driverObject.name === name});
 }
 
 function fuzzyMatch(drivers, startLetters) {
   for (const driver of drivers) {
+    for (const letter of driver) {
 
+    }
   }
 }
