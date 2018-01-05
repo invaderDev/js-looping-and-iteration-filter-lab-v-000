@@ -8,5 +8,7 @@ function matchName (drivers, driverName) {
 }
 
 function fuzzyMatch(drivers, startLetters) {
-  return drivers.filter(function (driver) {return driver[0] === startLetters[0]})
+  return drivers.filter(function (driver) {
+    return driver[0] === startLetters[0]
+  })
 }
