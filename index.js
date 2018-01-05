@@ -3,8 +3,8 @@ function findMatching(drivers, driverName) {
   return drivers.filter(function (driver) {return driver.toUpperCase() === driverName.toUpperCase()});
 }
 
-function matchName (drivers, name) {
-  return drivers.filter(function (driver) {return driver.name === name});
+function matchName (drivers, driverName) {
+  return drivers.filter(function (driver) {return driver.name === driverName});
 }
 
 function fuzzyMatch(drivers, startLetters) {
