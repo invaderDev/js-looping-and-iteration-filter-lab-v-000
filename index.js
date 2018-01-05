@@ -1,6 +1,6 @@
 // Code your solution in this file
-function findMatching(array, driverName) {
-  return array.filter(function (string) {return string.toUpperCase() === driverName.toUpperCase()});
+function findMatching(drivers, driverName) {
+  return array.filter(function (driver) {return string.toUpperCase() === driverName.toUpperCase()});
 }
 
 function matchName (drivers, name) {
