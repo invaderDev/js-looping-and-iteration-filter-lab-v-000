@@ -4,7 +4,7 @@ function findMatching(array, driverName) {
 }
 
 function matchName (drivers, name) {
-  drivers.filter(function (driverObject) {return driverObject.name === name});
+  drivers.filter(function (driver) {return driver.name === name});
 }
 
 function fuzzyMatch(drivers, startLetters) {
