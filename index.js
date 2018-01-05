@@ -15,6 +15,6 @@ function matchName (drivers, name) {
   return matchingDrivers;
 }
 
-function fuzzyMatch() {
+function fuzzyMatch(drivers, startLetters) {
 
 }
