@@ -14,3 +14,7 @@ function matchName (drivers, name) {
 
   return matchingDrivers;
 }
+
+function fuzzyMatch() {
+
+}
