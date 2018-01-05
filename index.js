@@ -16,5 +16,7 @@ function matchName (drivers, name) {
 }
 
 function fuzzyMatch(drivers, startLetters) {
+  for (const driver of drivers) {
 
+  }
 }
