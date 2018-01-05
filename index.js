@@ -6,7 +6,7 @@ function findMatching(array, driverName) {
 function matchName (drivers, name) {
   let matchingDrivers = [];
 
-  for (const driver in drivers){
+  for (const driver of drivers){
     if (driver.name === name) {
       matchingDrivers.push(driver);
     }
