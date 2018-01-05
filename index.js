@@ -14,6 +14,9 @@ function fuzzyMatch(drivers, startLetters) {
       if (driver[i] === startLetters[i]) {
         match = true;
       }
+      else {
+        match = false;
+      }
     }
     return match;
   })
